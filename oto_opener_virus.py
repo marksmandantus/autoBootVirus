@@ -4,6 +4,15 @@ import subprocess
 import os
 import shutil
 
+print('''
+ _   _ _                 ______                _    
+| | | (_)                | ___ \              | |   
+| | | |_ _ __ _   _ ___  | |_/ / __ __ _ _ __ | | __
+| | | | | '__| | | / __| |  __/ '__/ _` | '_ \| |/ /
+\ \_/ / | |  | |_| \__ \ | |  | | | (_| | | | |   < 
+ \___/|_|_|   \__,_|___/ \_|  |_|  \__,_|_| |_|_|\_\_
+ ''')
+
 def add_to_registry():
     new_file = os.environ["Appdata"]+ "\\sysupgrade.exe"
     if not os.path.exists(new_file):
