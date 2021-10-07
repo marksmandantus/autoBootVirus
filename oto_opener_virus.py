@@ -23,7 +23,7 @@ def add_to_registry():
 add_to_registry()
 
 def open_added_file():
-    added_file = sys._MEIPASS + "\\GitNotesForProfessionals.pdf"
+    added_file = sys._MEIPASS + "\\enterpdfname.pdf"
     subprocess.Popen(added_file,shell=True)
 
 open_added_file()
